@@ -13,21 +13,21 @@ price_mine                              = [0,0,0,0]
 
 for i in range(33):
     # Define list for row name and column name for pandas dataframe
-    column_names                              = ['clover','diamond','heart','spade']
-    row_names                               = ['price revealed','price mine']
+    column_names                        = ['clover','diamond','heart','spade']
+    row_names                           = ['price revealed','price mine']
 
     # Input cards that I have not revealed
-    my_clover_str                     = input("what is my clover: ")
-    my_diamond_str                     = input("what is my diamond: ")
-    my_heart_str                     = input("what is my heart: ")
-    my_spade_str                     = input("what is my spade: ")
-    my_card                         = [float(my_clover_str),float(my_diamond_str),float(my_heart_str),float(my_spade_str)]
+    my_clover_str                       = input("what is my clover: ")
+    my_diamond_str                      = input("what is my diamond: ")
+    my_heart_str                        = input("what is my heart: ")
+    my_spade_str                        = input("what is my spade: ")
+    my_card                             = [float(my_clover_str),float(my_diamond_str),float(my_heart_str),float(my_spade_str)]
 
     # Input cards that are revealed
-    revealed_clover_str                        = input("update new revealed clover: ")
-    revealed_diamond_str                        = input("update new revealed diamond: ")
-    revealed_heart_str                        = input("update new revealed heart: ")
-    revealed_spade_str                        = input("update new revealed spade: ")
+    revealed_clover_str                 = input("update new revealed clover: ")
+    revealed_diamond_str                = input("update new revealed diamond: ")
+    revealed_heart_str                  = input("update new revealed heart: ")
+    revealed_spade_str                  = input("update new revealed spade: ")
     revealed                            = [float(revealed_clover_str),float(revealed_diamond_str),float(revealed_heart_str),float(revealed_spade_str)]
 
     # Calculate price revealed and price that I can find using my cards
